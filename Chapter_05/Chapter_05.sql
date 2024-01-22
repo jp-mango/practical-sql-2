@@ -108,6 +108,7 @@ SELECT town,
 	supervisor,
 	salary
 FROM supervisor_salaries_temp;
+-- remove the table
 DROP TABLE supervisor_salaries_temp;
 -- Check the data
 SELECT *
